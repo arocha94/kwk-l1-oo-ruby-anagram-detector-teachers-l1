@@ -8,7 +8,9 @@ class Anagram
     @word = word 
   end 
   
-
+  def word=(word)
+    @word = word 
+  end 
   
   def word 
     @word 
