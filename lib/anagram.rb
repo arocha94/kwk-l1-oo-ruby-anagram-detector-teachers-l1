@@ -1,4 +1,5 @@
 # Your code goes here!
 
-
-def 
+class Anagram
+  attr_accessor
+end 
