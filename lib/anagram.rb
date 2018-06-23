@@ -8,8 +8,8 @@ class Anagram
     @word = word 
   end 
   
-  def match(diaper)
-    @diaper.findall || do |word|
+  def match(list)
+    @list.findall || do |word|
       word.split("").sort == @word.split("").sort
     end 
   end
