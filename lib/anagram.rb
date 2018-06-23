@@ -8,7 +8,8 @@ class Anagram
     @word = word 
   end 
   
-  def match(list)
+  def match(diaper)
+    
     
   
 end 
