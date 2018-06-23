@@ -9,7 +9,8 @@ class Anagram
   end 
   
   def match(diaper)
-    @diaper.findall || do 
+    @diaper.findall || do |word|
+      
     
   
 end 
