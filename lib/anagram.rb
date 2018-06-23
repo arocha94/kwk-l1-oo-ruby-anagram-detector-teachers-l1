@@ -10,7 +10,8 @@ class Anagram
   
   def match(diaper)
     @diaper.findall || do |word|
-      
+      word.split("").sort == @word.split("").sort
++    end
     
   
 end 
